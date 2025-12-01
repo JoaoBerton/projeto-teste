@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+    --cor01:#B4BEC9;
+    --cor02:#159A9C;
+    --cor03:#002333;
+    --cor04:#DEEFE7;
+    --cor05:#FFFFFF;
+
+    --font-principal:Arial, Helvetica, sans-serif;
+    --titulo:"Fredericka the Great", serif; ;
+    --font-terciaria:"Inter", sans-serif; ;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+}
