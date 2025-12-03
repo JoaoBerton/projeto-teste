@@ -67,25 +67,52 @@ nav {
     padding-left: 60px;
     
 }
-a, nav {
+nav > a {
     text-decoration: none;
     color: rgb(212, 70, 141);
-    
-    
-}
-nav a:hover {
-    transition-duration: 0.5s;
-    background-color: #159A9C;
-    color: #DEEFE7;
-}
-a {
     display: inline-block;
     line-height: 1.5em;
     padding: 7px;
     background-color: #DEEFE7;
     border-radius: 0 20px 0 20px;
+    
+}
+nav > a:hover {
+    transition-duration: 0.5s;
+    background-color: #159A9C;
+    color: #DEEFE7;
 }
 section {
     font-size: 1.5;
     font-family: var(--font-terciaria);
+}
+footer {
+    background-color: #B4BEC9;
+    color: #159A9C;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.256);
+}
+footer a:hover {
+    color: #DEEFE7;
+    border-radius: 30%;
+}
+.insta {
+    position: relative;
+    padding: 15px;
+    content: url(../../imagens/insta-icon.png);
+     
+}
+.face {
+    position: relative;
+    padding: 15px;
+    content: url(../../imagens/face-icon.png);
+    
+}
+.github {
+    position: relative;
+    padding: 15px;
+    content: url(../../imagens/github-icon.png);
 }
